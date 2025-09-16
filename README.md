@@ -42,7 +42,18 @@ The Phi coefficient was used for co-occurrence analysis to measure associations 
 
 ---
 ## 🧰 Packages Used
-
-dplyr, tidyr, ggplot2, ggtree, ggtreeExtra, vegan, ape, RColorBrewer, viridis, DescTools, pheatmap
-
+```R
+library(dplyr)
+library(RColorBrewer)
+library(cluster)
+library(ggplot2)
+library(ggtree)
+library(ggtreeExtra)
+library(pheatmap)
+library(vegan)
+library(tidyr)
+library(ape)
+library(viridis)
+library(DescTools)
+```
 
