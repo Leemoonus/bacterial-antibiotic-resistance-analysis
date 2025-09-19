@@ -58,4 +58,4 @@ library(DescTools)
 ```
 ---
 ## 📂 Example Data
-The dataset included in this repository is a synthetic example file created for demonstration purposes only. It mimics the structure of the original dataset used in the analysis, but contains randomly generated values. This allows users to run the code and reproduce the workflow without access to the real data (which cannot be shared due to confidentiality and publication restrictions).
+The dataset included in this repository is a synthetic example file created for demonstration purposes only. It mimics the structure of the original dataset used in the analysis, but contains randomly generated values (0 and 1). This allows users to run the code and reproduce the workflow without access to the real data (which cannot be shared due to confidentiality and publication restrictions).
