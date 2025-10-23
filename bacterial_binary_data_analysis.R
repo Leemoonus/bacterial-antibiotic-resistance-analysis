@@ -40,7 +40,7 @@ ring_data_long <- ring_data %>% pivot_longer(cols = -label, names_to = 'variable
 
 # Final tree
 p <- ggtree(tree, layout = 'circular') %<+% meta +
-  geom_tiplab(aes(color = phylogroup), size = 1.5, offset = 0.04, show.legend = FALSE) +
+  geom_tiplab(aes(color = phylogroup), size = 5.0, offset = 0.04, show.legend = FALSE) +
   geom_tippoint(aes(color = phylogroup), size = 0.6)+
   scale_color_brewer(palette = 'Dark2')+
   theme(legend.position = 'right')
@@ -94,3 +94,4 @@ for (i in 1:ncol(data_filtered)){
 }
 
 pheatmap(phi_matrix, color = rev(hcl.colors(100, 'viridis')))
+
